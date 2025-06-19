@@ -3,27 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyber Attack Prevention</title>
+  <title>Cyber Attack Prevention | Stay Safe Online</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>Cyber Security Guide</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sections/phishing.html">Phishing</a></li>
-        <li><a href="sections/malware.html">Malware</a></li>
-        <li><a href="sections/passwords.html">Passwords</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <h1><i class="fas fa-shield-alt"></i> Cyber Security Guide</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="sections/phishing.html"><i class="fas fa-fish"></i> Phishing</a></li>
+          <li><a href="sections/malware.html"><i class="fas fa-virus"></i> Malware</a></li>
+          <li><a href="sections/passwords.html"><i class="fas fa-key"></i> Passwords</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  
   <main>
-    <section>
-      <h2>How to Prevent Cyber Attacks</h2>
-      <p>Explore our guides to protect yourself online.</p>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Protect Yourself From Cyber Threats</h2>
+        <p>Learn how to identify and prevent phishing attacks and other online dangers</p>
+        <a href="sections/phishing.html" class="cta-button">Start Learning</a>
+      </div>
+    </section>
+    
+    <section class="features">
+      <div class="feature-card">
+        <i class="fas fa-envelope"></i>
+        <h3>Email Safety</h3>
+        <p>Spot suspicious emails before they cause harm</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-lock"></i>
+        <h3>Secure Logins</h3>
+        <p>Protect your accounts with strong authentication</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-globe"></i>
+        <h3>Web Safety</h3>
+        <p>Browse securely and avoid malicious sites</p>
+      </div>
     </section>
   </main>
+  
+  <footer>
+    <p></p>
+  </footer>
+  
   <script src="js/script.js"></script>
 </body>
 </html>
